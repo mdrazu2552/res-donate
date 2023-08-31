@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.primary-btn{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 20px;
+}
+.section-title{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    width:1280px ;
+    margin: auto;
+}
+/* banner section css  */
+header{
+    background-image: url(./images/donation11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner {
+    padding: 150px 400px;
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+}
+
+
+.banner-title{
+    font-size: 65px;
+    color: #fff;
+    z-index: 999;
+}
+.banner p{
+    font-size: 25px;
+    color: #ddd;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Donate today section style  */
+.dontate-today{
+    padding: 100px 0;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.dontate-today .sub-title{
+    font-size: 22px;
+    font-weight: 400;
+    color: #707070;
+}
+.amount-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.amount{
+    padding: 20px 20px;
+}
+.amount h2{
+    font-size: 40px;
+    color: #707070;
+}
+.a-color{
+    border: 2px solid #ff5959;
+    border-radius: 5px;
+}
+.a-color h2{
+    color: #ff5959;
+}
+
+.others-amount input[type="text"]{
+    width: 100%;
+    border: none;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]{
+    border: none;
+
+}
+
+
+/* Plan section style  */
+.donate-plane{
+    padding-bottom: 60px;
+}
+.donate-plane .sub-title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 400;
+    color: #707070;
+}
+.plans{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+h3.plan-tile {
+    font-size: 25px;
+    margin: 22px 0px;
+}
+p.plan-description {
+    font-size: 20px;
+    color: #707070;
+}
+.plan {
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+.plan-1{
+    background: #edf5f6;
+}
+.plan-2{
+    background: #ffeeee;
+}
+.plan-3{
+    background: #fff4d6;
+}
+
+
+/* depend section css  */
+.depend{
+    padding:50px 0;
+
+}
+.depend-infos{
+    display: flex;
+    gap:40px;
+}
+h1.depend-title {
+    font-size: 51px;
+    margin-top: 80px;
+}
+p.depend-description {
+    font-size: 18px;
+    color: #707070;
+    margin: 30px 0;
+    font-weight: 500;
+}
+.depend-infos img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* survive section style  */
+.survive{
+    padding:50px 0;
+
+}
+.survive-infos{
+    display: flex;
+    gap:40px;
+}
+h1.survive-title {
+    font-size: 51px;
+    margin-top: 80px;
+}
+.survive-info{
+    padding-left: 30px;
+}
+p.survive-description {
+    font-size: 18px;
+    color: #707070;
+    margin: 30px 0;
+    font-weight: 500;
+}
+.survive-infos img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* subscribe section style  */
+.subscribe{
+    padding: 50px 0;
+    text-align: center;
+}
+h1.subscribe-title {
+    font-size: 51px;
+}
+
+p.subscribe-description {
+    font-size: 20px;
+    color: #707070;
+    width: 610px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.subscribe-form {
+    width: 600px;
+    background: #fff4d6;
+    margin: auto;
+    padding: 80px 100px;
+}
+.subscribe-form input[type="email"] {
+    width: 60%;
+    height: 33px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+input.subscribe-btn {
+    background: #ff5959;
+    height: 53px;
+    padding: 0 26px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* footer section style  */
+footer{
+    padding:0 0 20px 0;
+    text-align: center;
+    background-image: linear-gradient(rgb(219, 90, 30), rgb(12, 51, 4));
+}
+h3.foter-copyright {
+    font-size: 14px;
+    color: #fff;
+}
+.foter-copyright a{
+    font-size: 14px;
+    color: lightblue;
+    display: inline-block;
+}
+
+
+
+/* Responsive style  */
+
+/* mobile styel  */
+@media screen and (max-width:576px) {
+    img{
+        width: 100%%
+    }
+    .container{
+        width:100% ;
+    }
+    .banner {
+        padding: 100px 20px;
+    }
+    .banner-title, .section-title  {
+        font-size: 26px;
+    }
+    .banner p , .dontate-today .sub-title {
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 7px;
+    }
+    .primary-btn {
+
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+
+
+    /* Donate section style  */
+    .dontate-today {
+        padding: 50px 20px;
+        width: 90%;
+    }
+    .amount-items {
+        flex-direction: column;
+    }
+    .others-amount input[type="text"] {
+        font-size: 22px;
+    }
+    .amount h2 {
+        font-size: 30px;
+    }
+
+
+    /* donate-plan section mobile style  */
+    .donate-plane .sub-title{
+        font-size: 15px;
+        margin:0;
+        width: 100%;
+    }
+    .plans {;
+        flex-direction: column;
+    }
+
+    /* depend sectiioin mobile style  */
+    .depend {
+        padding: 0 20px;
+        padding-bottom: 30px;
+    }
+    .depend-infos {
+        flex-direction: column-reverse;
+    }
+    .depend-infos img {
+        width: 100%;
+        border-radius: 0;
+    }
+    h1.depend-title, h1.survive-title  {
+        font-size: 26px;
+        margin-top: 3px;
+    }
+
+    p.depend-description, p.survive-description  {
+        font-size: 15;
+        margin: 18px 0;
+    }
+
+/* survive section style for mobile  */
+.survive {
+    padding: 30px 20px;
+}
+.survive-infos {
+    flex-direction: column;
+}
+.survive-infos img {
+    width: 100%;
+    border-radius: 0;
+    height: 100%;
+}
+.subscribe {
+    padding: 20px 20px 50px 20px;
+}
+h1.subscribe-title {
+    font-size: 30px;
+}
+p.subscribe-description {
+    font-size: 15px;
+    width: 100%;
+}
+
+
+/* form style for mobile  */
+.subscribe-form {
+    width: 89%;
+    padding: 30px 20px;
+}
+.subscribe-form input[type="email"] {
+    width: 90%;
+    height: 21px;
+}
+    input.subscribe-btn {
+        background: #ff5959;
+        height: 45px;
+        padding: 0 26px;
+        color: #fff;
+        font-size: 16px;
+        margin-left: -5px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+  
+}
+
+
+
+
+/* style for tablet  */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container{
+        width: 90%;
+    }
+
+    /* header section style for tablet  */
+    .banner {
+        padding: 100px 60px;
+    }
+    .banner-title {
+        font-size: 53px;
+    }
+    .banner p {
+        font-size: 22px;
+    }
+    .primary-btn {
+        padding: 15px 29px;
+    }
+
+
+    /* donate today style for tablet  */
+
+
+    .dontate-today {
+        padding: 50px 0;
+    }
+    .section-title {
+        font-size: 40px;
+    }
+    .dontate-today .sub-title {
+        font-size: 19px;
+        margin: 0 40px;
+    }
+    .amount h2 {
+        font-size: 34px;
+    }
+    
+element.style {
+}
+.others-amount input[type="text"] {
+    width: 77%;
+    font-size: 25px;
+}
+.donate-plane .sub-title {
+    width: 79%;
+    font-size: 19px;
+}
+
+
+/* Plan setion style for tablet  */
+.donate-plane {
+    padding-top: 30px;
+}
+.plans {
+    flex-direction: column;
+    width: 69%;
+    margin: auto;
+}
+p.sub-title {
+    margin-bottom: 40px !important;
+}
+
+/* depend setion style for tablet  */
+.depend-infos {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+h1.depend-title {
+    font-size: 40px;
+    margin-top: 10px;
+}
+p.depend-description {
+    font-size: 20px;
+}
+
+
+
+/* survive section style for tablet  */
+.survive-infos {
+    flex-direction: column;
+    align-items: center;
+}
+h1.survive-title {
+    font-size: 40px;
+    margin-top: 20px;
+}
+p.survive-description {
+    font-size: 20px;
+}
+ /* subscribe section style for tablet  */
+ .subscribe-form {
+    width: 60%;
+ }
+
+
+}
+
+
